@@ -1,0 +1,86 @@
+Alpaca
+    Baseline model:
+    Generated 805 examples in 281.84s
+    Throughput: 2.86 examples/second
+    Avg. time per example: 0.3501 seconds
+    Results saved to ./cs336_alignment/result/before_finetuned_result/alpacaeval_results.json
+
+    ,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
+    qwen-2.5-0.5b,3.229813664596273,0.623492879538605,community,1538,26,779,0,805,3.229813664596273,3.5555575454969652,0.051365208036367724
+
+
+    fintuned model:
+    Generated 805 examples in 157.20s
+    Throughput: 5.12 examples/second
+    Avg. time per example: 0.1953 seconds
+    Results saved to ./cs336_alignment/result/finetuned_result/alpacaeval_results_finetuned.json
+
+    ,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
+    qwen-2.5-0.5b-finetuned,2.484472049689441,0.5489413189456964,community,1562,20,785,0,805,2.484472049689441,2.5492751371627977,0.05541209902665894
+
+
+    DPO model:
+    Generated 805 examples in 174.76s
+    Throughput: 4.61 examples/second
+    Avg. time per example: 0.2171 seconds
+    
+    ,win_rate,standard_error,mode,avg_length,n_wins,n_wins_base,n_draws,n_total,discrete_win_rate,length_controlled_winrate,lc_standard_error
+    qwen-2.5-0.5b-DPO,2.236024844720497,0.5214344420161555,community,1577,18,787,0,805,2.236024844720497,2.316105779638852,0.041527219251836514
+
+
+
+
+mmlu
+    Baseline Model
+    Accuracy: 0.4644
+    Failed parse: 0/14042
+    Throughput: 37.98 examples/sec
+
+    finetuned:
+    Accuracy: 0.4541
+    Failed parse: 0/14042
+    Throughput: 36.77 examples/sec
+
+    DPO model:
+    Accuracy: 0.4541
+    Failed parse: 0/14042
+    Throughput: 35.40 examples/sec
+
+gsm8k
+    Baseline Model:
+    Accuracy: 0.3237
+    Failed to parse: 0
+    Throughput: 2.66 examples/second
+
+    Finetuned:
+    Accuracy: 0.2153
+    Failed to parse: 1
+    Throughput: 6.59 examples/second
+
+    DPO model:
+    Accuracy: 0.2146
+    Failed to parse: 1
+    Throughput: 5.56 examples/second
+
+sst 
+    Baseline model:
+    Generated 100 examples in 36.12 seconds.
+    Throughput: 2.77 examples/sec
+    Average time per example: 0.3612 sec
+    Saved results to: ./cs336_alignment/result/sst_baseline_predictions.jsonl
+    safe model output proportion: 20/100
+
+
+    Finetuned model:
+    Generated 100 examples in 20.37 seconds.
+    Throughput: 4.91 examples/sec
+    Average time per example: 0.2037 sec
+    Saved results to: ./cs336_alignment/result/sst_baseline_predictions_finetuned.jsonl
+    safe model output proportion: 44/100
+
+    DPO model:
+    Generated 100 examples in 22.33 seconds.
+    Throughput: 4.48 examples/sec
+    Average time per example: 0.2233 sec
+    Saved results to: /home/yujin31/s2025-assignment3-alignment/cs336_alignment/result/DPO_result/sst_baseline_predictions_DPO.jsonl
+    safe model output proportion: 100/100

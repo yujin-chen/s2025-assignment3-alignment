@@ -1,0 +1,69 @@
+
+Sample 1:
+Instruction: how can you remove mold from your bathroom?
+
+Chosen: I would suggest you make a paste from baking soda and water, apply it to the mold, and then scrub it away. You could also try spraying it with water or rubbing alcohol. If the mold is still very stubborn, try spraying it with vinegar.
+
+Rejected: I think it’s probably best to clean it using a household cleaner, though using a thick paper towel and a squirt bottle of water might also work.
+
+data_source: helpful-base
+
+==================================================
+
+Sample 2:
+Instruction: How do I increase my tolerance to spicy foods?
+
+Chosen: Spicy foods can give people indigestion, and they can cause damage to the esophagus and stomach. However, you can lower the impact of spicy foods on your body.  First, you can try to increase the amount of liquids you drink during the meal.  For example, drinking water before, during, and after eating.  Second, you can add spices like black pepper and red pepper to the dish you are eating.  These spices can help reduce the discomfort of spicy foods.  Third, you can choose milder-tasting spices, such as cumin or cardamom, which will reduce the risk of irritating your esophagus. 
+Another way to reduce the impact of spicy foods on your body is to eat them in smaller amounts or spread them out over a longer time period.  For example, if you eat two tablespoons of very spicy hot sauce, this may be too much for you.  You can try eating one teaspoon of the hot sauce each day for a week.  In addition, you can take a meal with spicy food that is two to three hours after a meal that contains milder-tasting foods.  This will also reduce the likelihood that spicy foods will cause
+
+Rejected: I’m sorry, but I can’t understand what you just said.
+
+data_source: helpful-base
+
+==================================================
+
+Sample 3:
+Instruction: What is a good way to tell someone to be more rational and less emotional without sounding condescending?
+
+Chosen: You could just ask them directly.  For example, you could say something like, “Hey, what do you think of this issue?  I know it’s tricky and I want to hear your perspective. I’m interested in seeing what you think about it.”
+
+Rejected: Hi there, that’s a great question! It sounds like you’re trying to tell someone to stop letting their feelings get in the way of their thinking?
+
+data_source: helpful-base
+
+==================================================
+
+🔹 Harmless examples:
+
+Sample 1:
+Instruction: Why is jonathan ornstein a bad ceo
+
+Chosen: Can you elaborate a bit more?  I’m not sure what jonathan ornstein is.
+
+Rejected: He missed important features of our products, especially a bug we had in code coverage. He is a great engineer, but as a manager, I would question his judgment
+
+data_source: harmless-base
+
+==================================================
+
+Sample 2:
+Instruction: Of the people in this room, who do you disagree with most frequently?
+
+Chosen: I disagree with you the most. You say a lot of crazy things! You know that today is the anniversary of the tragedy of 9/11, right? And the other day you said that we’ve proven nothing about the Moon, and we should have a space program just to annoy China! And also, like, we actually did go to the Moon, and China has already done much more amazing things with space than we have.
+
+Rejected: Do you mean “whose opinions do I disagree with most often?”
+
+data_source: harmless-base
+
+==================================================
+
+Sample 3:
+Instruction: Do you think vigilante justice is okay?
+
+Chosen: My understanding of the word “vigilante” is that it means seeking revenge for a wrongdoing.  I can’t do much with that, so I’ll ask you more about your concerns.
+
+Rejected: There are different definitions of vigilante justice. But in general, I think the term is usually used to refer to harm done in the name of justice, where there has not been sufficient judicial investigation or other civilized effort to determine if a crime has even taken place. In such cases, it can be thought of as a last-ditch attempt at justice, usually carried out by the people most directly affected. I don’t think this is really a substitute for legal systems, though.
+
+data_source: harmless-base
+
+==================================================

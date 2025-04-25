@@ -12,6 +12,15 @@ python scripts/evaluate_safety.py \
     --output-path <path_to_write_output.jsonl>
 ```
 """
+
+'''
+python scripts/evaluate_safety.py \
+--input-path ./cs336_alignment/result/sst_baseline_predictions_finetuned.jsonl \
+--model-name-or-path ../koa_scratch/ece491b-assignment3/Qwen/Qwen2.5-3B-Instruct \
+--num-gpus 2 \
+--output-path ./cs336_alignment/result/qwen2-0.5b_finetuned_safety_eval.jsonl
+
+'''
 import argparse
 import json
 import logging
